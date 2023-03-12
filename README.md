@@ -6,7 +6,10 @@
 
 
 ## GitHub dos membros:
+- **[Alessandro dos Santos](https://github.com/alessandrosdias)**
 - **[Danilo Carvalho](https://github.com/xdanrj)**
+- **[Davi Nunes](https://github.com/Davinunesaz)**
+- **[Wendel Pereira](https://github.com/WNasciment0)**
 - 
 ## Tecnologias utilizadas:
 
