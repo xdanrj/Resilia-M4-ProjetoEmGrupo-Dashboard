@@ -14,12 +14,17 @@
 ## Consultas SQL:
 
 <h2 align="center"> Downloads por gênero </h2>
+![ResiliaM4Grupo-1](https://user-images.githubusercontent.com/116215888/224570862-00458096-f154-4b98-86de-3feb70ee0da1.png)
+
 
 ```sh
 SELECT genero, SUM(downloads)  FROM jogos GROUP BY genero order by sum(downloads) desc
 ```
 
+
 <h2 align="center"> Downloads por editora </h2>
+![ResiliaM4Grupo-2](https://user-images.githubusercontent.com/116215888/224570899-faac3979-ae8f-4e67-8772-7ee4b5e69713.png)
+
 
 ```sh
 SELECT  editora, SUM(downloads)  FROM jogos GROUP BY editora order by SUM(downloads) desc
