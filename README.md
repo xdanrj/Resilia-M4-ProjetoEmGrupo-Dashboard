@@ -20,6 +20,12 @@
 - Microsoft Power Point
 - MySQL Workbench
 
+## Modelo Lógico:
+
+![ModeloLogicoSteam](https://user-images.githubusercontent.com/116215888/224703480-d9187007-8366-4c3d-b43c-e7e51b96b38d.png)
+
+
+
 ## Consultas SQL:
 
 <h2 align="center"> Downloads por gênero </h2>
