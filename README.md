@@ -10,9 +10,14 @@
 - **[Danilo Carvalho](https://github.com/xdanrj)**
 - **[Davi Nunes](https://github.com/Davinunesaz)**
 - **[Wendel Pereira](https://github.com/WNasciment0)**
-- 
-## Tecnologias utilizadas:
+- **[Thalyta Cunha](https://github.com/tatahcunha)**
 
+
+## Tecnologias utilizadas:
+- Microsoft Power Bi
+- Microsoft Excel
+- Microsoft Power Point
+- MySQL Workbench
 
 ## Consultas SQL:
 
@@ -74,7 +79,7 @@ SELECT  nome, downloads  FROM jogos order by downloads desc
 ![ResiliaM4Grupo-7](https://user-images.githubusercontent.com/116215888/224571059-87201b4e-7a99-4e48-88c0-54ee8da321da.png)
 
 ```sh
-
+SELECT nome, avaliacoes_positivas, avaliacoes_negativas, sum(avaliacoes_positivas+avaliacoes_negativas) as avaliacoes_totais, downloads from jogos group by nome order by avaliacoes_totais desc
 ```
 
 
