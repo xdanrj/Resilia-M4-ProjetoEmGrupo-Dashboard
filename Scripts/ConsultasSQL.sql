@@ -25,6 +25,7 @@ SELECT  nome, downloads  FROM jogos order by downloads desc;
 
 
 # 7. Downloads por avaliação positiva e negativa
+SELECT nome, avaliacoes_positivas, avaliacoes_negativas, sum(avaliacoes_positivas+avaliacoes_negativas) as avaliacoes_totais, downloads from jogos group by nome order by avaliacoes_totais desc
 
 
 # 8. Jogos lançados ao longo do tempo
